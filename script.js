@@ -1,5 +1,5 @@
 const urlBase = `https://api.openweathermap.org/data/2.5/find`;
-const API_KEY = '3cf6ea6f4ebf6c6f467fcbb695a5561e';//aca va el api key que generamos 
+const API_KEY = 'api-key-generado';//aca va el api key que generamos 
 const units = "metric";
 
 document.getElementById('searchButton').addEventListener('click', () => {
