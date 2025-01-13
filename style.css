@@ -1,0 +1,72 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: rgb(1, 88, 114);
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(4, 74, 96);
+    box-shadow: 0 2px 4px rgb(44, 44, 44);
+}
+
+h1,
+h2,
+p {
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button i {
+    padding-left: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(0, 140, 220);
+}
+
+#responseData {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+select {
+    appearance: none; /* Quitar el estilo predeterminado del navegador */
+    /*-webkit-appearance: none; /* Safari y Chrome */
+    /*-moz-appearance: none; /* Firefox */
+    background: #f9f9f9;
+    border: 1px solid #00aaff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+select:focus {
+    outline: none;
+    border-color: #0077cc;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
