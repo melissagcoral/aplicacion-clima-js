@@ -34,10 +34,10 @@ function processCityResults(data) {
     }
 
     if (data.count === 1) {
-        // Si hay una sola coincidencia, mostrar directamente los detalles
+        // si hay una sola coincidencia, mostrar directamente los detalles
         showWeatherDetails(data.list[0]);
     } else {
-        // Si hay múltiples coincidencias, mostrar opciones al usuario
+        // si hay múltiples coincidencias, mostrar opciones al usuario
         showCityOptions(data.list);
     }
 }
